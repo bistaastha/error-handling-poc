@@ -1,1 +1,19 @@
-<p>child-component works!</p>
+This is just example content for the child component.
+
+<div class="button-actions-block">
+    <button 
+      pButton 
+      type="button" 
+      (click)="close('error')"
+      class="button-outline-secondary" 
+      [label]="'Cancel'">
+    </button>
+
+    <button 
+      pButton 
+      type="submit" 
+      (click)="close('success')" 
+      class="button-outline-primary" 
+      [label]="'Okay'">
+    </button>
+  </div>

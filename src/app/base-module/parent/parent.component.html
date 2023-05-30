@@ -1,1 +1,4 @@
-<button label="Submit">Submit</button>
+<p-button (click)="show()" label="Open Dialog"></p-button>
+<div *ngIf="hasActionFailed">Action failed</div>
+<div *ngIf="hasActionSucceeded">Action succeeded</div>
+<div *ngIf="result">{{result}}</div>

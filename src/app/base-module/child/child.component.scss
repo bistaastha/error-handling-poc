@@ -1,0 +1,12 @@
+.button-actions-block {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 500px;
+
+  button {
+    margin: 0 10px;
+  }
+}

@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BaseModule } from './base-module/base-module.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { ToastModule } from 'primeng/toast';
 
 @NgModule({
   declarations: [
@@ -10,7 +13,9 @@ import { BaseModule } from './base-module/base-module.module';
   ],
   imports: [
     BrowserModule,
-    BaseModule
+    BaseModule,
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
